@@ -4,7 +4,7 @@ class Artist
   @@all = []
 
   def initialize(name)
-    #instance variable needed to fullfill the test expectations
+    #TBD: instance variable needed to fullfill the test expectations. Not needed.
     @songs = []
 
     @name = name
@@ -29,7 +29,8 @@ class Artist
   end
 
   def self.song_count
-    #class variable needed to fullfill the test expectations
+    #TBD: class variable needed to fullfill the test expectations. Not needed.
     @@song_count = Song.all.count
+
   end
 end
