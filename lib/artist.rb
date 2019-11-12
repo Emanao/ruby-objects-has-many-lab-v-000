@@ -5,6 +5,7 @@ class Artist
 
   def initialize(name)
     @name = name
+    @songs = [] #instance variable needed to fullfill the test expectations
     @@all << self
   end
 
