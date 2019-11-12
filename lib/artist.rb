@@ -4,8 +4,10 @@ class Artist
   @@all = []
 
   def initialize(name)
+    #instance variable needed to fullfill the test expectations
+    @songs = []
+
     @name = name
-    @songs = [] #instance variable needed to fullfill the test expectations
     @@all << self
   end
 
