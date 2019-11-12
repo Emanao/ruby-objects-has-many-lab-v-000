@@ -29,6 +29,7 @@ class Artist
   end
 
   def self.song_count
+    #class variable needed to fullfill the test expectations
     @@song_count = Song.all.count
   end
 end
